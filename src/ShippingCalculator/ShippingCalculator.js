@@ -33,8 +33,7 @@ class ShippingCalculator extends Component{
     
 
     _onChange(value) {
-        //console.log(value) - just to see what we recive from <Select />
-        // console.log(value.value);
+        
         this.setState({vehicleType: value.value, vehicleName:value.label}
             
             );
